@@ -28,15 +28,12 @@ he tweet image predictions, i.e., what breed of dog (or other object, animal, et
 Fully assessing and cleaning the entire dataset would require exceptional effort so only a subset of its issues (eight quality issues and two tidiness issues at minimum) needed to be assessed and cleaned.
 
 ###### The tasks for this project were:
-Data wrangling, which consists of:
-Gathering data
-Assessing data
-Cleaning data
-Storing, analyzing, and visualizing our wrangled data
-Reporting on 1) our data wrangling efforts and 2) our data analyses and visualizations
-Installing
-Install Jupyter Notebook to run wrangle_act.ipynb.
+1- Data wrangling, which consists of: Gathering data, Assessing data & Cleaning data.
+2- Storing, analyzing, and visualizing our wrangled data.
+3- Reporting on my data wrangling efforts and my analyses and visualizations about the dataset.
 
+###### Installing
+Install Jupyter Notebook to run wrangle_act.ipynb.
 Need consumer_key, consumer_secret, access_token, access_secret to query from Twitter API.
 
 ### Require the following libraries installed.
@@ -50,15 +47,14 @@ Importing tweepy library
 Importing json library
 
 ### Files
-act_report: Communicates the insights and displays the Visualizations produced from the wrangled data.
-./Data/image_prediction.tsv: Data downloaded using Requests library and URL.
-./Data/tweet_json.txt: Data gathered from twitter API.
-./Data/twitter-archive-enhanced.csv: File downloaded from Udacity.
-./Data/twitter_archive_master.csv: The clean DataFrame 1.
-./Data/twitter_image_predictions.csv: The clean DataFrame 2.
-wrangle_act.ipynb: The main file containing all the gathering, wrangling and analyzing work.
-wrangle_report: Briefly describes my wrangling efforts.
-(Check the wrangling here and the visualization here)
+1- act_report: Communicates the insights and displays the Visualizations produced from the wrangled data.
+2- ./Data/image_prediction.tsv: Data downloaded using Requests library and URL.
+3- ./Data/tweet_json.txt: Data gathered from twitter API.
+4- ./Data/twitter-archive-enhanced.csv: File downloaded from Udacity.
+5- ./Data/twitter_archive_master.csv: The clean DataFrame 1.
+6- ./Data/twitter_image_predictions.csv: The clean DataFrame 2.
+7- wrangle_act.ipynb: The main file containing all the gathering, wrangling and analyzing work.
+8- wrangle_report: Briefly describes my wrangling efforts.
 
 Resources
-Twitter API
+[Twitter API ](https://developer.twitter.com/content/developer-twitter/en.html)
